@@ -1,0 +1,123 @@
+body{
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e3a8a,#7c3aed);
+    margin:20px;
+    color:white;
+}
+
+/* Dashboard Title */
+h1,h2,h3{
+    text-align:center;
+    color:white;
+    text-shadow:0 0 15px cyan;
+}
+
+/* Statistic Cards */
+.card{
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    padding:20px;
+    margin:15px;
+    display:inline-block;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 8px 25px rgba(0,255,255,0.3);
+    transition:0.3s;
+    min-width:220px;
+    text-align:center;
+    color:white;
+    
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 30px cyan;
+}
+
+/* Table Styling */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(0,255,255,0.2);
+}
+
+/* Table Header */
+table th{
+    background:linear-gradient(90deg,#06b6d4,#8b5cf6);
+    color:white;
+    padding:15px;
+    font-size:16px;
+    letter-spacing:1px;
+}
+
+/* Table Data */
+table td{
+    padding:18px;
+    text-align:center;
+
+    color:#f8fafc;
+    font-size:15px;
+    font-weight:600;
+
+    background:rgba(255,255,255,0.04);
+
+    border-bottom:1px solid rgba(0,255,255,0.15);
+
+    text-shadow:0 0 5px rgba(255,255,255,0.3);
+
+    transition:0.3s;
+}
+table tr:hover td{
+    color:#00ffff;
+    text-shadow:0 0 10px cyan;
+}
+
+/* Zebra Rows */
+table tr:nth-child(even){
+    background:rgba(255,255,255,0.05);
+}
+
+table tr:hover{
+    background:rgba(0,255,255,0.15);
+    transition:0.3s;
+}
+
+/* Images */
+img{
+    width:250px;
+    border-radius:15px;
+    border:3px solid cyan;
+    box-shadow:0 0 20px cyan;
+    transition:0.3s;
+}
+
+img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 30px #00ffff;
+}
+footer{
+    margin-top:30px;
+    padding:15px;
+
+    text-align:center;
+
+    color:white;
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(10px);
+
+    border-top:2px solid cyan;
+
+    border-radius:15px;
+
+    box-shadow:0 0 15px rgba(0,255,255,0.3);
+
+    font-size:14px;
+
+    letter-spacing:1px;
+}
